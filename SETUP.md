@@ -41,15 +41,15 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
    - Toggle **ON:** Create file if it doesn't exist, Open file, Focus new pane
 5. Lightning bolt ⚡
 
-### Choice B: New Project
+### Choice B: today
 
 1. Settings → QuickAdd → **Add Choice**
-2. Name: `New Project`
+2. Name: `today`
 3. Type: `Template`
 4. Gear icon:
-   - **Template path:** `_templates/project-template.md`
-   - **Create in folder:** `10_resume-projects/projects`
-   - **File name format:** `{{VALUE:org-slug}}-{{VALUE:project-slug}}.md`
+   - **Template path:** `_templates/daily-review-template.md`
+   - **Create in folder:** `07_daily-log`
+   - **File name format:** `{{DATE:YYYY-MM-DD}}.md`
    - Toggle **ON:** Create file if it doesn't exist, Open file, Focus new pane
 5. Lightning bolt ⚡
 
@@ -71,6 +71,7 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
 
 **Settings → Hotkeys** → search for your QuickAdd choices and assign keys:
 - `QuickAdd: job app`
+- `QuickAdd: today`
 - `QuickAdd: job update`
 
 ## 5. Bases (optional)

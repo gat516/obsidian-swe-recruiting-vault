@@ -4,11 +4,13 @@ tags: [homepage]
 
 # today
 
-- problem: 
-- pattern focus: _hub - ___
-- behavioral story: [[]]
-- resume bullet: 
-- application action: 
+```button
+name today
+type command
+action QuickAdd: today
+```
+
+open today's log → write what you got done.
 
 ---
 
