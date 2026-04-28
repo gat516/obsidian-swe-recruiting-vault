@@ -15,26 +15,19 @@ tags: [homepage]
 ## quick actions
 
 ```button
-name New Application
+name job app
 type command
-action QuickAdd: New Application
+action QuickAdd: job app
 ```
 
 ```button
-name Update App Status
+name job update
 type command
-action QuickAdd: Update App Status
-```
-
-```button
-name New Project
-type command
-action QuickAdd: New Project
+action QuickAdd: job update
 ```
 
 ## getting started
-- [ ] Create your first application (click "New Application" above)
-- [ ] Create your first project deep-dive (click "New Project")
+- [ ] Create your first application (Ctrl+P → "job app")
 - [ ] Pick problem 1 from [[_meta/study-plan|study plan]] → create note → set 20-min timer
 - [ ] Mine one raw story for the behavioral bank
 

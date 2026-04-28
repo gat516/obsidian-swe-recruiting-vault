@@ -2,12 +2,6 @@
 
 > deeper dataview queries — check weekly, not daily.
 
-```button
-name New Daily Log
-type command
-action Templater: Open Insert Template Modal
-```
-
 ## solve counts by pattern
 ```dataview
 TABLE length(rows) as "solved", sum(rows.attempts) as "total attempts"

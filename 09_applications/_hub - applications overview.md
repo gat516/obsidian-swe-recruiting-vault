@@ -6,9 +6,9 @@ tags: [applications, hub]
 # applications overview
 
 ```button
-name New Application
+name job app
 type command
-action QuickAdd: New Application
+action QuickAdd: job app
 ```
 
 ## target companies
