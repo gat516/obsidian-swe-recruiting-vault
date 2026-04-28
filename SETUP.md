@@ -41,18 +41,6 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
    - Toggle **ON:** Create file if it doesn't exist, Open file, Focus new pane
 5. Lightning bolt ⚡
 
-### Choice B: today
-
-1. Settings → QuickAdd → **Add Choice**
-2. Name: `today`
-3. Type: `Template`
-4. Gear icon:
-   - **Template path:** `_templates/daily-review-template.md`
-   - **Create in folder:** `07_daily-log`
-   - **File name format:** `{{DATE:YYYY-MM-DD}}.md`
-   - Toggle **ON:** Create file if it doesn't exist, Open file, Focus new pane
-5. Lightning bolt ⚡
-
 ### Macro: job update
 
 1. Settings → QuickAdd → **Manage Macros**
@@ -71,7 +59,6 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
 
 **Settings → Hotkeys** → search for your QuickAdd choices and assign keys:
 - `QuickAdd: job app`
-- `QuickAdd: today`
 - `QuickAdd: job update`
 
 ## 5. Bases (optional)

@@ -7,7 +7,7 @@ tags: [homepage]
 ```button
 name today
 type command
-action QuickAdd: today
+action Daily notes: Open today's daily note
 ```
 
 open today's log → write what you got done.
@@ -21,7 +21,6 @@ name job app
 type command
 action QuickAdd: job app
 ```
-
 ```button
 name job update
 type command

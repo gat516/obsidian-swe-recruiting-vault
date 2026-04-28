@@ -1,0 +1,5 @@
+{
+  "folder": "07_daily-log",
+  "template": "_templates/daily-review-template.md",
+  "format": "YYYY-MM-DD"
+}
