@@ -29,10 +29,10 @@ Most configs are already set in `.obsidian/plugins/*/data.json`. Just confirm th
 
 QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click the **lightning bolt ⚡** for each choice.
 
-### Choice A: New Application
+### Choice A: job app
 
 1. Settings → QuickAdd → **Add Choice**
-2. Name: `New Application`
+2. Name: `job app`
 3. Type: `Template`
 4. Gear icon:
    - **Template path:** `_templates/application-template.md`
@@ -53,7 +53,7 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
    - Toggle **ON:** Create file if it doesn't exist, Open file, Focus new pane
 5. Lightning bolt ⚡
 
-### Macro: Update App Status
+### Macro: job update
 
 1. Settings → QuickAdd → **Manage Macros**
 2. **Add Macro** → name it `Update Status`
@@ -62,7 +62,7 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
 5. Close the macro modal
 
 6. Back in QuickAdd main settings, click **Add Choice**
-   - Name: `Update App Status`
+   - Name: `job update`
    - Type: `Macro`
 7. Gear icon → select the `Update Status` macro
 8. Lightning bolt ⚡
@@ -70,9 +70,8 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
 ## 4. Hotkeys (optional)
 
 **Settings → Hotkeys** → search for your QuickAdd choices and assign keys:
-- `QuickAdd: New Application`
-- `QuickAdd: New Project`
-- `QuickAdd: Update App Status`
+- `QuickAdd: job app`
+- `QuickAdd: job update`
 
 ## 5. Bases (optional)
 
