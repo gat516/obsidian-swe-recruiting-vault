@@ -1,0 +1,36 @@
+---
+date: "{{date}}"
+tags: [daily]
+---
+
+# {{date}}
+
+## today's targets
+- problem: [[]]
+- pattern focus: _hub - ___
+
+## time floor: 15–20 min solo before any hint
+
+## ticket submitted at:
+- [ ] restatement
+- [ ] signal & pattern guess
+- [ ] first approach
+- [ ] specific wall
+
+## outcome
+- status: 
+- time to first approach: ___ min
+- time to working solution: ___ min
+- hint level reached (0–3): 
+
+## pattern / signal / why / gotcha
+- pattern: 
+- signal: 
+- why: 
+- gotcha: 
+
+## cards generated today
+- [[]]
+
+## tomorrow
+- 

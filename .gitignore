@@ -1,0 +1,9 @@
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/types.json
+.obsidian/cache
+
+# Plugin binaries (reinstall via Community Plugins browser)
+.obsidian/plugins/**/main.js
+.obsidian/plugins/**/styles.css

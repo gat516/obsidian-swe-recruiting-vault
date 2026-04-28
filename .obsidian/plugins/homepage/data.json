@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "home": "_meta/homepage.md",
+      "hasRibbonIcon": true,
+      "openOnStartup": true,
+      "openMode": "Replace all open notes",
+      "view": "Default view",
+      "revertView": true,
+      "refreshDataview": false,
+      "autoCreate": false,
+      "autoScroll": false,
+      "pin": false,
+      "alwaysAppend": false,
+      "kind": "File",
+      "commands": []
+    }
+  },
+  "separateMobile": false
+}
