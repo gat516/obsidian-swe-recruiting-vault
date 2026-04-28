@@ -12,6 +12,7 @@ Open **Settings → Community Plugins → Browse** and install these:
 - **templater**
 - **obsidian tasks**
 - **tag wrangler**
+- **buttons**
 
 Then enable them in **Community Plugins**.
 

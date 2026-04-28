@@ -12,6 +12,34 @@ tags: [homepage]
 
 ---
 
+## quick actions
+
+```button
+name New Application
+type command
+action QuickAdd: New Application
+```
+
+```button
+name Update App Status
+type command
+action QuickAdd: Update App Status
+```
+
+```button
+name New Project
+type command
+action QuickAdd: New Project
+```
+
+## getting started
+- [ ] Create your first application (click "New Application" above)
+- [ ] Create your first project deep-dive (click "New Project")
+- [ ] Pick problem 1 from [[_meta/study-plan|study plan]] → create note → set 20-min timer
+- [ ] Mine one raw story for the behavioral bank
+
+---
+
 ## active — OAs & interviews
 ```dataview
 TABLE company, role, status, next_action, next_action_due

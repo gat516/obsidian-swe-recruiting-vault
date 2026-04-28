@@ -1,40 +1,54 @@
 # how to use this vault
 
-## the technical workflow
+## first week (do these once)
 
-1. **open obsidian** → [[homepage]] opens automatically → see today's targets.
-2. **pick the problem** from your study plan. open the problem note.
-3. **time floor: 15–20 minutes solo.** fill in sections 1–4 (the ticket). no googling, no hints, no ai.
-4. **if you solved it:** fill section 5, then section 6 (pattern / signal / why / gotcha). draw the trace.
-5. **if you're stuck after 20 min:** *only now* engage your ai thinking partner with the ticket pasted in. once you solve, sections 5 and 6 still get filled — by you, not pasted from the ai.
-6. **update the pattern hub.** new gotcha? add it. the hub is the asset.
-7. **generate one flashcard.**
-8. **daily log:** fill in outcome, hint level, time-to-approach.
+These set up the skeleton. After this, the vault runs itself.
+
+1. **Create your first application.** Use the "New Application" button on [[homepage]] or your QuickAdd hotkey. Fill in company, role, status.
+2. **Create your first project deep-dive.** Use the "New Project" button. Pick one project from your resume and fill the elevator + one bullet.
+3. **Solve your first problem.** Open [[_meta/study-plan]], pick problem 1, create a note from `problem-template`, set a 20-minute timer, fill the ticket.
+4. **Mine one raw story.** Open `08_behavioral/01_story-bank/`, create a note from `story-template`, dump a memory with no STAR formatting yet.
+
+That's it. You now have at least one note in every track. The rest is maintenance.
+
+---
+
+## ongoing workflows
+
+### applications (daily / as needed)
+
+1. **find a role** → "New Application" button / hotkey → fill company, role, link.
+2. **status changes** (oa scheduled, interview, offer) → "Update App Status" → pick field → new value.
+3. **monday morning, 10 min:** open [[homepage]]. For each item in "needs action this week", do it or push the date.
+4. **sunday, 10 min:** review active OAs/interviews. anything stuck >2 weeks gets a follow-up or withdraw decision.
+
+### technical (when studying)
+
+1. open [[homepage]] → pick problem from study plan.
+2. **time floor: 15–20 minutes solo.** fill sections 1–4 (the ticket). no googling, no hints, no ai.
+3. **if solved:** fill section 5, then section 6 (pattern / signal / why / gotcha). draw the trace.
+4. **if stuck after 20 min:** *only now* engage your thinking partner with the ticket pasted in.
+5. **update the pattern hub.** new gotcha? add it. the hub is the asset.
 
 end-of-week ritual: re-read the pattern hubs you touched. don't re-read problems. hubs.
 
-## the behavioral workflow
+### behavioral (when rehearsing)
 
 1. **story mining:** when you have a raw memory, dump it into a story note. no STAR yet.
-2. **STAR development:** once per week, pick 2–3 stories and build the STAR skeleton.
+2. **STAR development:** once per week, pick 1–2 stories and build the STAR skeleton.
 3. **rehearsal:** use the three lengths (30s / 90s / 2min). record yourself. self-critique.
 4. **mock:** weekly mock. log what was rough. update story confidence honestly.
 
-## the applications workflow
+You don't need to fill all 12 question hubs upfront. Create 5–8 stories first, then the hubs populate themselves via Dataview.
 
-1. **monday morning, 30 min:** open homepage. for each "needing action this week", do the action or push the date with a reason.
-2. **find an interesting role:** quickadd hotkey → fill in company, role, jd link.
-3. **before applying:** fill "what the role wants" + "my matching evidence". promote to `applied` once submitted.
-4. **interview scheduled:** fill `interview_date`, `round`. work through the prep checklist.
-5. **after each round:** fill the post-interview debrief same day.
-6. **weekly retro (sunday, 15 min):** review the active applications list. anything stuck >2 weeks gets a follow-up or "withdraw" decision.
-
-## the resume & projects workflow
+### resume & projects (before interviews)
 
 1. **monthly:** pick one project. 30-min deep dive simulation, recorded. update weak spots.
 2. **weekly:** random-bullet drill. 5 bullets, 60s each, recorded, self-graded.
 3. **before any interview:** open the relevant project notes. confirm elevator + 3 follow-ups for each highlighted project, cold.
-4. **after any interview:** if a bullet got dug into and you wobbled, flag it `weak`, add the question to "anticipated questions", and put it in next week's drill rotation.
+4. **after any interview:** if a bullet got dug into and you wobbled, flag it `weak` and drill it next week.
+
+---
 
 ## rules that matter
 

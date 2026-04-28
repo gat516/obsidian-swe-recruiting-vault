@@ -2,8 +2,14 @@
 type: resume-hub
 tags: [resume-hub]
 ---
-	
+
 # resume overview
+
+```button
+name New Project
+type command
+action QuickAdd: New Project
+```
 
 ## current canonical resume
 [[resume]]

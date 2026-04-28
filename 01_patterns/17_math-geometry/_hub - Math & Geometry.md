@@ -1,5 +1,7 @@
 ---
 type: pattern-hub
+
+> Fill this hub as you solve problems in this pattern. The table below populates automatically.
 pattern: Math & Geometry
 last_updated: 2026-04-28
 tags:

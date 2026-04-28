@@ -2,9 +2,14 @@
 type: applications-hub
 tags: [applications, hub]
 ---
-	
+
 # applications overview
 
+```button
+name New Application
+type command
+action QuickAdd: New Application
+```
 
 ## target companies
 - crowdstrike
@@ -18,9 +23,9 @@ tags: [applications, hub]
 - notion
 - anthropic
 
-## active pipeline
+## active pipeline — interviewing & OA
 ```dataview
-TABLE company, role, next_action, next_action_due
+TABLE company, role, status, next_action, next_action_due
 FROM "09_applications/apps"
 WHERE status = "interviewing" OR status = "oa"
 SORT next_action_due ASC
