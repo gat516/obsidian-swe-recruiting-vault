@@ -21,6 +21,7 @@ name job app
 type command
 action QuickAdd: job app
 ```
+
 ```button
 name job update
 type command
@@ -42,14 +43,6 @@ WHERE status = "interviewing" OR status = "oa"
 SORT next_action_due ASC
 ```
 
-## needs action this week
-```dataview
-TABLE company, role, next_action, next_action_due
-FROM "09_applications/apps"
-WHERE next_action_due AND next_action_due <= date(today) + dur(7 days)
-SORT next_action_due ASC
-```
-
 ---
 
 ## quick links
@@ -57,3 +50,13 @@ SORT next_action_due ASC
 - [[09_applications/_hub - applications overview]]
 - [[10_resume-projects/_hub - resume overview]]
 - [[_meta/progress-dashboard]]
+
+---
+
+## coming up — next 2 weeks
+```dataview
+TABLE company, role, status, next_action, next_action_due
+FROM "09_applications/apps"
+WHERE next_action_due AND next_action_due <= date(today) + dur(14 days)
+SORT next_action_due ASC
+```
