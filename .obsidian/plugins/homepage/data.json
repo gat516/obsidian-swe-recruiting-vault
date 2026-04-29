@@ -3,7 +3,7 @@
   "homepages": {
     "Main Homepage": {
       "version": 2,
-      "home": "_meta/homepage.md",
+      "home": "homepage.md",
       "hasRibbonIcon": true,
       "openOnStartup": true,
       "openMode": "Replace all open notes",
