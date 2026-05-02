@@ -5,12 +5,15 @@ labuladong:
 last_updated: 
 tags:
   - pattern-hub
+  - flashcard
   - pattern/
 ---
 
 # 
 
-> chapter notes go in [[01_technicals/01_patterns//notes/|notes/]] · solved problems go in [[01_technicals/01_patterns//problems/|problems/]] · flashcards go in [[01_technicals/01_patterns//flashcards/|flashcards/]]
+> ↰ [[hub - technicals overview|technicals hub]]
+
+> chapter notes go in [[01_technicals/01_patterns//notes/|notes/]] · solved problems go in [[01_technicals/01_patterns//problems/|problems/]]
 
 ## signal — when do i reach for this?
 -
@@ -41,6 +44,11 @@ TABLE difficulty, last_reviewed
 FROM "01_technicals/01_patterns//problems"
 SORT last_reviewed DESC
 ```
+
+## flashcards
+
+<!-- pattern-level cards. add a card when a problem reveals a new signal or variant. format: question, `?` on its own line, answer below. -->
+
 
 ## cross-pattern connections
 -

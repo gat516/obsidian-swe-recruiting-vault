@@ -2,11 +2,11 @@ module.exports = async (params) => {
     const { app, quickAddApi: { suggester, inputPrompt } } = params;
 
     const appFiles = app.vault.getMarkdownFiles()
-        .filter(f => f.path.startsWith("09_applications/apps/"))
+        .filter(f => f.path.startsWith("03_applications/apps/"))
         .sort((a, b) => a.basename.localeCompare(b.basename));
 
     if (appFiles.length === 0) {
-        new Notice("No applications found in 09_applications/apps/");
+        new Notice("No applications found in 03_applications/apps/");
         return;
     }
 

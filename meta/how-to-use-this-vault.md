@@ -6,7 +6,7 @@ These set up the skeleton. After this, the vault runs itself.
 
 1. **Create your first application.** Use the "New Application" button on [[homepage]] or your QuickAdd hotkey. Fill in company, role, status.
 2. **Create your first project deep-dive.** Use the "New Project" button. Pick one project from your resume and fill the elevator + one bullet.
-3. **Solve your first problem.** Open [[meta/study-plan]], pick problem 1, create a note from `problem-template`, set a 20-minute timer, fill the ticket.
+3. **Solve your first problem.** Open [[study-plan]], pick problem 1, create a note from `problem-template`, set a 20-minute timer, fill the ticket.
 4. **Mine one raw story.** Open `02_behavioral/01_story-bank/`, create a note from `story-template`, dump a memory with no STAR formatting yet.
 
 That's it. You now have at least one note in every track. The rest is maintenance.

@@ -13,4 +13,4 @@ views:
     name: View
     filters:
       and:
-        - file.inFolder("09_applications/apps")
+        - file.inFolder("03_applications/apps")

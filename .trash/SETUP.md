@@ -1,4 +1,17 @@
-# Setup — do this once after cloning
+---
+company: "{{VALUE:company name}}"
+role: "{{VALUE:swe,infra,backend,quant,ai,consulting,frontend,IT|label:role}}"
+status: "{{VALUE:applied,oa,interviewing,offer,rejected|label:status}}"
+date_applied: "{{DATE:YYYY-MM-DD}}"
+applied_time: "{{DATE:HH:mm}}"
+link: "{{VALUE:app link}}"
+resume: "{{VALUE:resume link}}"
+tags:
+  - job-application
+---
+
+## notes
+{{VALUE:Notes}}# Setup — do this once after cloning
 
 ## 1. Install plugins
 
@@ -35,7 +48,7 @@ QuickAdd ignores hand-edited `data.json`. You must use the settings UI and click
 2. Name: `job app`
 3. Type: `Template`
 4. Gear icon:
-   - **Template path:** `templates/application-template.md`
+   - **Template path:** `_templates/application-template.md`
    - **Create in folder:** `03_applications/apps`
    - **File name format:** `{{DATE:YYYY-MM-DD}}-{{VALUE:Company|case:kebab}}.md`
    - Toggle **ON:** Create file if it doesn't exist, Open file, Focus new pane

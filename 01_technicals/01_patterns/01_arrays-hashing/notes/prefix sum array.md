@@ -1,27 +1,27 @@
 ---
 type: notes
 source: labuladong
-chapter: chapter 0
-section:
-pattern:
+chapter: chapter 1
+section: prefix sum array technique
+pattern: arrays-hashing
 date: "{{date}}"
 tags:
   - notes
   - wip
-  - flashcard
   - source/labuladong
+  - pattern/arrays-hashing
+  - prefix
 ---
-
-> ↰ pattern hub: [[ ]]
 
 > [!abstract] tl;dr
 > *fill this in AFTER reading — 1-3 sentences in your own words. if you can't, you didn't get it yet.*
 
 ---
-
+[[01_technicals/01_patterns/01_arrays-hashing/excalidraw/prefix sum array|prefix sum array]]
 ## scratchpad
 
-*raw dump zone. capture everything as you read — code fragments, page refs, "wait what?", half-thoughts, confusion, things to google. don't organize. don't filter. you'll clean it up below.*
+>prefix sum technique is used to quickly/repeatedly calculate sum of elements in a range of indices
+- 
 
 ---
 
@@ -98,4 +98,7 @@ tags:
 
 ---
 
->when done with this chapter, swap the `wip` tag for `done` in frontmatter.
+## sources
+
+- labuladong, ch. , p.
+- when done with this chapter, swap the `wip` tag for `done` in frontmatter.

@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p __TRACKED_VAR__/problems)",
+      "Bash(touch __TRACKED_VAR__/problems/.gitkeep)",
+      "Bash(rm -rf /home/cj/OneDrive/recruiting-vault/01_technicals/02_frameworks)",
+      "Bash(rm -rf /home/cj/OneDrive/recruiting-vault/01_technicals/03_problems)",
+      "Bash(rm -rf /home/cj/OneDrive/recruiting-vault/01_technicals/04_flashcards)",
+      "WebFetch(domain:labuladong.online)",
+      "WebSearch",
+      "Bash(mkdir -p __TRACKED_VAR__/notes)",
+      "Bash(touch __TRACKED_VAR__/notes/.gitkeep)",
+      "Bash(python3)",
+      "Bash(mv \"_example - valid anagram \\(active\\).md\" \"_example - valid anagram \\(done\\).md\")",
+      "Bash(mv \"_example - contains duplicate \\(inactive\\).md\" \"_example - contains duplicate \\(done - rusty\\).md\")",
+      "PowerShell(& \"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\\\\.tmp-hub-migrate.ps1\")",
+      "PowerShell($PSScriptRoot = \"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\")",
+      "PowerShell($src = Get-Content -Raw \"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\\\\.tmp-hub-migrate.ps1\"; Invoke-Expression $src)",
+      "PowerShell($src = [System.IO.File]::ReadAllText\\(\"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\\\\.tmp-hub-migrate.ps1\"\\); $sb = [scriptblock]::Create\\($src\\); & $sb)",
+      "Bash(git checkout *)",
+      "PowerShell($src = [System.IO.File]::ReadAllText\\(\"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\\\\.tmp-hub-migrate.ps1\", [System.Text.Encoding]::UTF8\\); $sb = [scriptblock]::Create\\($src\\); & $sb)",
+      "PowerShell($utf8 = New-Object System.Text.UTF8Encoding $false; $f = \"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\\\\01_technicals\\\\01_patterns\\\\07_trees\\\\hub - trees.md\"; $c = [System.IO.File]::ReadAllText\\($f, $utf8\\); Write-Output \"BYTES_LEN: $\\($c.Length\\)\"; Write-Output \"HAS flashcard tag: $\\($c -match '\\(?m\\)^  - flashcard$'\\)\"; Write-Output \"HAS pattern-hub tag: $\\($c -match '\\(?m\\)^  - pattern-hub$'\\)\"; Write-Output \"HAS cross-pattern: $\\($c -match '\\(?m\\)^## cross-pattern connections$'\\)\"; Write-Output \"---\"; $c2 = $c -replace \"\\(?m\\)^  - pattern-hub$\", \"  - pattern-hub`n  - flashcard\"; Write-Output \"AFTER REPLACE — has flashcard? $\\($c2 -match '\\(?m\\)^  - flashcard$'\\)\"; Write-Output \\($c2.Substring\\(0, 120\\)\\))",
+      "PowerShell($utf8 = New-Object System.Text.UTF8Encoding $false; $f = \"c:\\\\Users\\\\gatch\\\\OneDrive\\\\recruiting-vault\\\\01_technicals\\\\01_patterns\\\\07_trees\\\\hub - trees.md\"; $c = [System.IO.File]::ReadAllText\\($f, $utf8\\); Write-Output \"TEST1 \\(single-quoted\\): $\\($c -match '\\(?m\\)^  - pattern-hub$'\\)\"; Write-Output \"TEST2 \\(anchor only\\): $\\($c -match '  - pattern-hub'\\)\"; Write-Output \"TEST3 \\(multiline mode\\): $\\($c -match '\\(?ms\\)^  - pattern-hub$'\\)\")"
+    ]
+  }
+}

@@ -2,20 +2,25 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "version": 2,
-      "home": "homepage.md",
-      "hasRibbonIcon": true,
+      "value": "homepage",
+      "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
+      "manualOpenMode": "Keep open notes",
       "view": "Default view",
       "revertView": true,
+      "openWhenEmpty": false,
       "refreshDataview": false,
       "autoCreate": false,
       "autoScroll": false,
       "pin": false,
-      "alwaysAppend": false,
-      "kind": "File",
-      "commands": []
+      "commands": [],
+      "alwaysApply": false,
+      "hideReleaseNotes": false,
+      "version": 2,
+      "home": "homepage.md",
+      "hasRibbonIcon": true,
+      "alwaysAppend": false
     }
   },
   "separateMobile": false

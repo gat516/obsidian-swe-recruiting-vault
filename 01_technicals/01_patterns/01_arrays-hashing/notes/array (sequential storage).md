@@ -1,16 +1,15 @@
 ---
 type: notes
 source: labuladong
-chapter: implement dynamic arrays
+chapter: chapter 0
 section: array (sequential storage)
-pattern: arrays & hashing
+pattern: arrays-hashing
 date: 05-01-2026
 tags:
   - notes
   - wip
   - source/labuladong
-  - flashcard/
-  - pattern/
+  - pattern/arrays-hashing
 ---
 
 > [!abstract] tl;dr
@@ -19,8 +18,26 @@ tags:
 ---
 
 ## scratchpad
-- 
+>**static array basics**
+- static array is a contiguous block of memory
+- arr = [0] * 10
+	- starting address of mem = `arr`
+	- since we know type, we know size `int = 4 bytes`
+	- block is continuous, arr = 40 bytes
+> as long as we know the index, we can get the value in O(1) time
 
+>main job of a data structure -> add, del, search, update
+- add:
+	- element at end (O1)
+	- insert element in middle O(n)  -> must shift elements to the right
+- delete:
+	- remove last element O(1)
+	- insert element last O(n) -> must shift elements left
+
+>**dynamic array basics**
+- dynamics do not solve the O(n) time complexity required to add / delete elements in the middle. it is impossible.
+- fast random access comes from the contiguous space in memory
+- dynamic arrays simply have wrappers around operations for easier use
 ---
 
 ## key concepts

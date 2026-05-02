@@ -5,7 +5,7 @@
       "name": "job app",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/application-template.md",
+      "templatePath": "_templates/application-template.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{DATE:YYYY-MM-DD}}-{{VALUE:company name|case:kebab}}.md"
@@ -45,6 +45,26 @@
             "type": "UserScript",
             "id": "671aa148-2310-4442-8fe5-7a55e9f4a621",
             "path": "meta/scripts/update-app-status.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "a7a8c0b6-17bd-4a19-b395-5e8b993ad595",
+      "name": "dsa",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "dsa",
+        "id": "ce661ae3-e374-443c-b70e-1ac465af779b",
+        "commands": [
+          {
+            "name": "pattern-add",
+            "type": "UserScript",
+            "id": "9905b9e8-a648-463b-b0fd-3bcb57f53c5e",
+            "path": "meta/scripts/pattern-add.js",
             "settings": {}
           }
         ]

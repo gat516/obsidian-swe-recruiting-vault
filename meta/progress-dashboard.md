@@ -5,16 +5,17 @@
 ## solve counts by pattern
 ```dataview
 TABLE length(rows) as "solved", sum(rows.attempts) as "total attempts"
-FROM "01_technicals/03_problems"
-WHERE status != "unsolved"
+FROM "01_technicals/01_patterns"
+WHERE type = "problem" AND #done
 GROUP BY pattern
 SORT length(rows) DESC
 ```
 
 ## theme coverage matrix
 ```dataview
-TABLE difficulty, pattern, status
-FROM "01_technicals/03_problems"
+TABLE difficulty, pattern, tags
+FROM "01_technicals/01_patterns"
+WHERE type = "problem"
 SORT pattern ASC, difficulty ASC
 ```
 

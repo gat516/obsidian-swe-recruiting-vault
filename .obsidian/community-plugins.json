@@ -2,12 +2,12 @@
   "tag-wrangler",
   "obsidian-tasks-plugin",
   "obsidian-spaced-repetition",
-  "templater-obsidian",
   "quickadd",
   "homepage",
   "obsidian-excalidraw-plugin",
   "dataview",
   "buttons",
   "file-explorer-plus",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "templater-obsidian"
 ]

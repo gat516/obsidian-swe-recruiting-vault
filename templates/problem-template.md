@@ -1,9 +1,9 @@
 ---
 type: problem
-id: nc
 title: ""
 difficulty: 
 pattern: 
+note: 
 attempts: 0
 link: 
 tags:
@@ -13,7 +13,9 @@ tags:
   - difficulty/
 ---
 
-# <% tp.file.title %>
+> ↰ pattern hub: [[ ]] · sub-pattern note: 
+
+# 
 
 > [!info] problem link
 > 

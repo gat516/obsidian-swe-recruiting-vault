@@ -5,10 +5,13 @@ labuladong:
 last_updated: 2026-05-01
 tags:
   - pattern-hub
+  - flashcard
   - pattern/1d-dp
 ---
 
 # 1-d dp
+
+> ↰ [[hub - technicals overview|technicals hub]]
 
 > chapter notes go in [[01_technicals/01_patterns/13_1d-dp/notes/|notes/]] · solved problems go in [[01_technicals/01_patterns/13_1d-dp/problems/|problems/]]
 
@@ -41,6 +44,10 @@ TABLE difficulty, last_reviewed
 FROM "01_technicals/01_patterns/13_1d-dp/problems"
 SORT last_reviewed DESC
 ```
+
+## flashcards
+
+<!-- pattern-level cards. add a card when a problem reveals a new signal or variant. format: question, `?` on its own line, answer below. -->
 
 ## cross-pattern connections
 -
