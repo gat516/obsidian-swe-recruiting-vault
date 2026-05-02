@@ -1,5 +1,5 @@
 {
-  "folder": "07_daily-log",
-  "template": "_templates/daily-review-template.md",
+  "folder": "01_technicals/07_daily-log",
+  "template": "templates/daily-review-template.md",
   "format": "YYYY-MM-DD"
 }

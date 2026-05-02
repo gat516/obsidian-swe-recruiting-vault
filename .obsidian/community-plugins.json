@@ -1,6 +1,5 @@
 [
   "tag-wrangler",
-  "buttons",
   "obsidian-tasks-plugin",
   "obsidian-spaced-repetition",
   "templater-obsidian",
@@ -8,5 +7,7 @@
   "homepage",
   "obsidian-excalidraw-plugin",
   "dataview",
-  "buttons"
+  "buttons",
+  "file-explorer-plus",
+  "obsidian-pandoc"
 ]

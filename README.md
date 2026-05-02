@@ -24,27 +24,26 @@ Three rules drive every design choice:
 
 | track | sections | unit of study |
 |---|---|---|
-| **technical** | `01_patterns/` – `07_daily-log/` | problems → pattern hubs → flashcards |
-| **behavioral** | `08_behavioral/` | stories → question hubs → mocks |
-| **applications** | `09_applications/` | apps → dataview → retro |
-| **resume & projects** | `10_resume-projects/` | bullets → project deep-dives → drills |
+| **technical** | `01_technicals/` | pattern hubs → problems → flashcards |
+| **behavioral** | `02_behavioral/` | stories → question hubs → mocks |
+| **applications** | `03_applications/` | apps → dataview → retro |
+| **resume & projects** | `04_resume-projects/` | bullets → project deep-dives → drills |
 
 Same cognitive scaffolding, different unit of study.
 
 ### Technical track
 
-- **18 pattern hubs** (`01_patterns/`) — one for each NeetCode category. Each hub collects the signal cues, variants, common gotchas, and a live Dataview table of every problem you've solved in that pattern.
-- **11 framework notes** (`02_frameworks/`) — Labuladong's mental templates (sliding window, backtracking, DP, BFS/DFS, binary search, union-find, monotonic stack, topological sort, etc.). These are the upstream references; NeetCode 150 is the exercise set.
-- **Problems** (`03_problems/`) — one note per problem. The template enforces a "ticket" (restatement → signal guess → approach → wall) *before* you look at any solution.
-- **Flashcards** (`04_flashcards/`) — pattern recognition cards, framework cards, gotcha cards, behavioral cards, resume bullet cards. All use the Spaced Repetition plugin.
-- **Excalidraw** (`05_excalidraw/`) — traces, mental models, decision trees. One scratchpad you wipe weekly.
+- **18 pattern hubs** (`01_technicals/01_patterns/*/hub - *.md`) — one for each NeetCode category. Each hub collects signal cues, variants, common gotchas, and a live Dataview table of solved problems.
+- **Problems** (`01_technicals/01_patterns/*/problems/`) — one note per problem. The template enforces a "ticket" (restatement → signal guess → approach → wall) *before* you look at any solution.
+- **Pattern flashcards** (`01_technicals/01_patterns/*/flashcards/pattern.md`) — one SR card per pattern. Front = signal; back = skeleton + complexity + growing list of related problems.
+- **Notes** (`01_technicals/01_patterns/*/notes/`) — Labuladong chapter notes, reference material, scratchpads.
 - **Daily log** (`07_daily-log/`) — time-to-first-approach, hint level, consolidation.
 
 ### Behavioral track
 
-- **Story bank** (`08_behavioral/01_story-bank/`) — raw memories → STAR skeleton → three lengths (30s / 90s / 2min) → self-critique log.
-- **Question hubs** (`08_behavioral/02_question-hubs/`) — 12 categories (ownership, conflict, failure, leadership, ambiguity, etc.). Each auto-lists relevant stories via Dataview.
-- **Company values** (`08_behavioral/03_company-values/`) — Amazon LPs, etc.
+- **Story bank** (`02_behavioral/01_story-bank/`) — raw memories → STAR skeleton → three lengths (30s / 90s / 2min) → self-critique log.
+- **Question hubs** (`02_behavioral/02_question-hubs/`) — 12 categories (ownership, conflict, failure, leadership, ambiguity, etc.). Each auto-lists relevant stories via Dataview.
+- **Company values** (`02_behavioral/03_company-values/`) — Amazon LPs, etc.
 
 ### Applications track
 
@@ -111,8 +110,8 @@ Quickstart:
 ## Naming conventions
 
 - **Problems:** `nc{id}-{title}.md` (sorts by NeetCode order)
-- **Pattern hubs:** `_hub - {pattern}.md` (sorts to top of folder)
-- **Frameworks:** kebab-case (`dp-framework.md`)
+- **Pattern hubs:** `hub - {pattern}.md`
+- **Pattern flashcards:** `pattern.md`
 - **Applications:** `YYYY-MM-DD-{company-slug}.md`
 - **Projects:** `{org-slug}-{project-slug}.md`
 
@@ -120,17 +119,19 @@ Quickstart:
 
 ## NeetCode ↔ Labuladong mapping
 
-| NeetCode pattern | Labuladong framework to read first |
+Read Labuladong's chapter for a pattern **before** grinding its problems. The skeleton from the chapter goes into the pattern hub's `## the skeleton` section.
+
+| NeetCode pattern | Labuladong chapter |
 |---|---|
-| Trees | `binary-tree-thinking` — read this before *any* tree problem |
-| 1-D DP, 2-D DP | `dp-framework` — state, transition, base case |
-| Backtracking | `backtracking-framework` — path / choices / end condition |
-| Graphs | `bfs-template`, `dfs-template`, `union-find` |
-| Advanced graphs | `topological-sort` |
-| Sliding window | `sliding-window-template` |
-| Binary search | `binary-search-variants` — left bound, right bound, exact element |
-| Stack | `monotonic-stack` |
-| Two pointers | `two-pointer-variants` — opposite ends vs. same direction |
+| Trees | binary tree |
+| 1-D DP, 2-D DP | dynamic programming |
+| Backtracking | backtracking |
+| Graphs | BFS / DFS / union-find |
+| Advanced graphs | topological sort |
+| Sliding window | sliding window |
+| Binary search | binary search |
+| Stack | monotonic stack |
+| Two pointers | two pointers |
 
 Labuladong's strength is giving you a *fixed mental skeleton* per pattern. Your job per problem is just to fill in the skeleton's blanks.
 

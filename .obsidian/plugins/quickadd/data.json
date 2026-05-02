@@ -5,7 +5,7 @@
       "name": "job app",
       "type": "Template",
       "command": true,
-      "templatePath": "_templates/application-template.md",
+      "templatePath": "templates/application-template.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{DATE:YYYY-MM-DD}}-{{VALUE:company name|case:kebab}}.md"
@@ -44,7 +44,7 @@
             "name": "update-app-status",
             "type": "UserScript",
             "id": "671aa148-2310-4442-8fe5-7a55e9f4a621",
-            "path": "_meta/scripts/update-app-status.js",
+            "path": "meta/scripts/update-app-status.js",
             "settings": {}
           }
         ]
@@ -55,7 +55,7 @@
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
   "devMode": false,
-  "templateFolderPath": "_templates",
+  "templateFolderPath": "templates",
   "announceUpdates": "major",
   "version": "2.12.0",
   "globalVariables": {},

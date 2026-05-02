@@ -1,0 +1,16 @@
+name: all-applications
+description: Application tracking database
+note: "Open this file in Obsidian Bases to configure views: all, active pipeline, action this week, interviews scheduled, by company, rejected post-mortem."
+filters:
+  and:
+    - file.hasTag("job-application")
+views:
+  - type: table
+    name: Table
+    order: []
+    sort: []
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.inFolder("09_applications/apps")
